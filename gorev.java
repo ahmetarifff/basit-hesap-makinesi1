@@ -2,17 +2,9 @@ import java.util.Scanner;
 
 public class gorev {
 
-
         public static void main(String[] args)
         {
-
-
-
             Scanner tara = new Scanner(System.in);
-
-
-
-
             System.out.println("sayi1'i giriniz");
 
             int sayi1 = tara.nextInt();
@@ -33,11 +25,7 @@ public class gorev {
             if (harf.equals("t"))
             {
                 int sonuc = sayi1 + sayi2;
-
-
                 System.out.println("toplama islemi : "+ sonuc);
-
-
             }
             else if (harf.equals("c")){
 
@@ -57,18 +45,11 @@ public class gorev {
                 int sonuc = sayi1 * sayi2;
                 System.out.println("carpma islemi : " + sonuc);
             }
-
-
                 else{
                     System.out.println("yanlis bir harf sectiniz ");
 
                 }
             }
-
-
-
-
-
         }
 
 
